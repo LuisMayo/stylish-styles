@@ -1,0 +1,7 @@
+/*Fixes indracompany's mobility button placement*/
+@-moz-document domain("mobility.indracompany.com") {
+  #table_useruimenu_1 > tbody > tr > td:last-child {
+    position: absolute;
+    right: 0;
+  }
+}
